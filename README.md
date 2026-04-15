@@ -38,7 +38,12 @@ primetrade_internship/
 ├── PARTB_Q3/
 │   ├── partb_q3.py
 │   └── segment_analysis.png
+|
+├── clustering_data/
+│   ├── clustering.py
+│   └── trader_archetypes.png
 │
+├── predicted_model.py
 ├── PARTB__Analysis_Insights.txt
 ├── PART_C_strategies.txt
 ├── README.md
@@ -156,6 +161,55 @@ python "PARTB_Q3/partb_q3.py"
 - Helps avoid diminishing returns  
 
 ---
+
+## 🤖 Predictive Model Insights (Next-Day Profitability)
+
+### 📊 Model Performance
+
+- **Accuracy:** 66.67%  
+  → Model correctly predicts next-day profitability about 2 out of 3 times  
+
+- **Profit Precision:** 79%  
+  → When the model predicts a profitable day, it is correct 79% of the time  
+
+- **Profit Recall:** 79%  
+  → The model captures 79% of all actual profitable days  
+
+---
+
+### 🔍 Feature Importance (What Drives Profitability)
+
+- **Avg Trade Size (31.9%)**  
+  → Most important factor influencing profitability  
+
+- **Win Rate (29.0%)**  
+  → Strong indicator of consistent performance  
+
+- **Number of Trades (27.0%)**  
+  → Trading frequency significantly impacts returns  
+
+- **Sentiment – Fear & Greed Index (12.1%)**  
+  → Least influential factor among all features  
+
+---
+
+### 💡 Key Insight
+
+- Trading performance depends more on **execution strategy** than market sentiment  
+- The most critical drivers are:
+  - Position sizing  
+  - Win rate  
+  - Trade frequency  
+
+---
+
+### 🧠 Interpretation
+
+- The model shows **moderate accuracy with strong precision and recall**, making it fairly reliable  
+- Profitability is driven more by **how traders behave** rather than just **market conditions**  
+- Sentiment still contributes, but plays a **secondary role**  
+
+--- 
 
 ## 📊 Clustering Insights (Trader Archetypes)
 
