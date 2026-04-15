@@ -1,0 +1,30 @@
+## Part C: Actionable Output
+
+### Strategy 1: Fear Day Position Sizing for Frequent Traders
+**Rule:** During Fear days, frequent traders increase position size by 20%; infrequent traders maintain or reduce.
+
+**Rationale:** Frequent traders generated $329,421 on Fear days vs $89,324 for infrequent traders (269% higher). Active traders better identify fear-driven opportunities.
+
+**Implementation:**
+- Identify frequent traders (top 50% by trade volume)
+- On Fear days (index value < 45), increase position cap by 20%
+- Monitor for diminishing returns
+
+---
+
+### Strategy 2: Daily Trade Limit During Fear Sentiment
+**Rule:** Cap daily trades at 3,000 during Fear days.
+
+**Rationale:** Fear days show 4,183 avg trades vs 1,134 on Greed days, but PnL increases only 110% despite 269% more trades. Returns diminish beyond optimal volume.
+
+**Implementation:**
+- Set automated circuit breaker at 3,000 trades/day when Fear sentiment detected
+- Remove cap when sentiment returns to Greed (index > 55)
+- Track efficiency ratio (PnL per trade) to validate threshold
+
+---
+
+### Expected Impact
+- Reduce overtrading costs during volatile Fear periods
+- Improve PnL per trade by 15-20%
+- Protect infrequent traders from chasing momentum
