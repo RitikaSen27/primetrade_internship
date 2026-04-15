@@ -1,0 +1,12 @@
+Q1:Does performance (PnL, win rate, drawdown proxy) differ between Fear vs Greed days?
+
+Yes, performance differs substantially:
+
+1. PnL is much higher on Fear days - Traders make approximately 6 times more profit during Fear sentiment compared to Greed days ($6.7M vs $1.06M)
+
+2. Trading activity spikes on Fear days - Volume increases 11x during Fear days (133,871 trades vs 12,096 trades), suggesting fear-driven trading
+
+3. Win rate is higher on Fear days (from your Q2 output) - 41.6% on Fear vs 37.4% on Greed, indicating trade quality improves during fearful sentiment
+
+Conclusion:
+Traders are more active and more profitable on Fear days compared to Greed days, despite the negative sentiment label. Fear appears to drive better trading decisions and higher returns.
