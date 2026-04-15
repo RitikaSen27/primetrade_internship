@@ -1,0 +1,25 @@
+Provide at least 3 insights backed by charts/tables.
+Ans:Insight 1: Traders are more active but less profitable on Fear days
+                Evidence from your Q2 output:
+                A.Fear days: 4,183 trades per day (highest activity)
+                B.Greed days: 1,134 trades per day (lower activity)
+                C.But Fear days PnL: $209,372 vs Greed days: $99,675
+    Thus,Traders execute 269% more trades on Fear days compared to Greed days, yet Fear day PnL is only 110% higher. This suggests overtrading during fearful sentiment leads to diminishing returns per trade.
+
+
+    Insight 2: Win rate is highest during Fear days
+              Evidence from your Q2 output:
+              A.Fear days win rate: 41.59%
+              B.Greed days win rate: 37.41%
+              C.Neutral days win rate: 26.07%
+
+    Thus,Win rate peaks during Fear days (41.6%) compared to Greed days (37.4%) and Neutral days (26.1%). This indicates that cautious sentiment improves trade quality, even though overall activity is lower.
+
+    Insight 3: Frequent traders outperform infrequent traders significantly on Fear days
+              Evidence from your Q3 output:
+              A.Frequent traders on Fear days: $329,421
+              B.Infrequent traders on Fear days: $89,324
+              C.Difference: $240,097 higher for frequent traders
+
+    Thus,Frequent traders generate 269% higher PnL than infrequent traders during Fear days ($329K vs $89K). However on Greed days, the advantage drops to 204% ($155K vs $51K). This suggests active traders better capitalize on fear-driven market dislocations.
+    
