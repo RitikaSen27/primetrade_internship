@@ -157,6 +157,41 @@ python "PARTB_Q3/partb_q3.py"
 
 ---
 
+## 📊 Clustering Insights (Trader Archetypes)
+
+### 🧩 Identified Trader Segments
+
+| Archetype | Trades/Day | Position Size | Win Rate | Daily PnL | Profile |
+|----------|------------|---------------|----------|-----------|--------|
+| Moderate, Balanced | 11,995 | $1,789 | 58.6% | $374,388 | ⭐ Best performers – high frequency, small size, highest win rate |
+| High Volume, Low Win Rate | 1,909 | $15,578 | 21.6% | $800,115 | 💰 Most profitable despite low win rate – large positions |
+| Aggressive, Large Size | 2,433 | $19,176 | 41.5% | $70,853 | 🎯 Large positions, moderate win rate |
+| Conservative, High Win Rate | 1,422 | $3,589 | 37.6% | $63,412 | 🛡️ Cautious approach with smaller positions |
+
+---
+
+### 🔍 Key Insights
+
+- **High Volume, Low Win Rate traders generate the highest profits ($800K)**  
+  Despite a low win rate of **21.6%**, profitability comes from **very large position sizes**
+
+- **Moderate, Balanced traders achieve the highest win rate (58.6%)**  
+  Indicates **strong trade selection and consistency**
+
+- **Conservative traders maintain profitability with lower risk**  
+  Smaller positions but stable returns suggest a **risk-controlled strategy**
+
+---
+
+### 💡 Interpretation
+
+These clusters highlight a key trade-off in trading strategies:
+
+- Profitability is **not solely dependent on win rate**
+- **Position sizing plays a crucial role** in overall returns
+- Different strategies can succeed depending on **risk appetite and execution style**
+
+  
 ## 📦 Requirements
 
 ```
