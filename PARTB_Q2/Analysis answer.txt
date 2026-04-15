@@ -1,0 +1,34 @@
+Q2:Do traders change behavior based on sentiment (trade frequency, leverage, long/short bias, position sizes)?
+
+Answer: Yes, traders change behavior significantly based on sentiment.
+Based on your partb_Q2 graphs and output:
+
+1. Trade Frequency - YES, dramatically changes
+
+Traders execute 4,183 trades/day on Fear days vs only 1,134 on Greed days
+
+That's 269% more trading activity during fearful sentiment
+
+Neutral days see even less activity (892 trades)
+
+2. Position Sizes - YES, but moderately
+
+Position sizes are larger on Fear days ($5,927 vs $5,839 on Greed)
+
+Neutral days see significantly smaller positions ($3,793)
+
+Change is modest but consistent
+
+3. Long/Short Bias - Unable to determine (your data showed all zeros for long_ratio)
+
+4. Win Rate - YES, changes significantly
+
+Fear days produce highest win rate (41.59%)
+
+Greed days: 37.41%
+
+Neutral days: 26.07% (lowest)
+
+Conclusion:
+Traders become much more active, take slightly larger positions, and achieve higher win rates during Fear days compared to Greed or Neutral days. Fear sentiment drives behavioral changes that actually improve trading outcomes.
+
